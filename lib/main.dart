@@ -43,7 +43,7 @@ class _QuizPageState extends State<QuizPage> {
 
     setState(() {
       if (userPickedAnswer == correctAnswer) {
-        scoreKeeper.add(Icon(Icons.check, color: Colors.blue));
+        scoreKeeper.add(Icon(Icons.check, color: Colors.green));
       } else {
         scoreKeeper.add(Icon(Icons.close, color: Colors.red));
       }
@@ -83,7 +83,7 @@ class _QuizPageState extends State<QuizPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
-          flex: 5,
+          flex: 30,
           child: Padding(
             padding: EdgeInsets.all(10.0),
             child: Center(

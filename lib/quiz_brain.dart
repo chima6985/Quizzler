@@ -19,7 +19,9 @@ class QuizBrain {
          Question(q:'The Premier League season consists of 34 matches per team.', a:false),       
          Question(q:'Mesii can play football better than Ronalod ', a:false),   
          Question(q:'Neymar is a good dribbler ', a:true), 
-         Question(q:'Arsenal is the most decorated English Team', a:false),                 
+         Question(q:'Arsenal is the most decorated English Team', a:false),
+         Question(q:'manchester united is the most decorated English Team', a:true), 
+         Question(q:'Arsenal won against bournmouth on the 19 of October', a:false),                  
 ];
 
 

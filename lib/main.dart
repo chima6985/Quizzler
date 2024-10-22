@@ -83,7 +83,7 @@ class _QuizPageState extends State<QuizPage> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         Expanded(
-          flex: 30,
+          flex: 5,
           child: Padding(
             padding: EdgeInsets.all(10.0),
             child: Center(

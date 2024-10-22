@@ -21,7 +21,7 @@ class QuizBrain {
          Question(q:'Neymar is a good dribbler ', a:true), 
          Question(q:'Arsenal is the most decorated English Team', a:false),
          Question(q:'manchester united is the most decorated English Team', a:true), 
-         Question(q:'Arsenal won against bournmouth on the 19 of October', a:false),                  
+                          
 ];
 
 
